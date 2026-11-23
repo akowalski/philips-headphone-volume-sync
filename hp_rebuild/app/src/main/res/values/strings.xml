@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Philips Headphone Volume Sync</string>
+    <string name="app_description">Synchronizes the headphone output with the main TV volume, including zero volume and mute.</string>
+    <string name="service_label">Philips Headphone Volume Sync</string>
+    <string name="service_description">Enable this accessibility service to automatically synchronize the headphone output with the main Philips TV volume, including mute.</string>
+    <string name="diag_title">Philips Headphone Volume Sync</string>
+    <string name="diag_hint">Keeps the headphone output synchronized with the main TV volume, including zero volume and mute. Use the controls below to inspect the current levels or synchronize manually.</string>
+    <string name="enable_accessibility_hint">To enable automatic synchronization with the TV remote, turn on Philips Headphone Volume Sync in Accessibility settings.</string>
+    <string name="button_read">READ STATUS</string>
+    <string name="button_sync">SYNC NOW</string>
+    <string name="button_accessibility">OPEN ACCESSIBILITY SETTINGS</string>
+    <string name="accessibility_global">Accessibility enabled (system)</string>
+    <string name="service_listed">Our service enabled</string>
+    <string name="last_connected">Last service connection (epoch ms)</string>
+    <string name="headphone_before">Headphone volume before</string>
+    <string name="expected_volume">Target headphone volume</string>
+    <string name="after_write">Headphone volume after</string>
+    <string name="result">Result</string>
+    <string name="not_matching">DOES NOT MATCH</string>
+    <string name="read_only">Read-only mode: no changes were made.</string>
+    <string name="error">ERROR</string>
+    <string name="cause">CAUSE</string>
+    <string name="settings_error">Unable to open Accessibility settings</string>
+    <string name="speakers_title">TV Speakers</string>
+    <string name="speakers_hint">Control built-in TV speakers (Philips-specific setting). Headphone volume sync remains active. Bluetooth and HDMI output modes are not controlled here.</string>
+    <string name="speakers_read">REFRESH TV SPEAKER STATUS</string>
+    <string name="speakers_on">TURN TV SPEAKERS ON</string>
+    <string name="speakers_off">TURN TV SPEAKERS OFF</string>
+    <string name="speakers_current">Current TV speaker state: %1$s</string>
+    <string name="speakers_state_on">ON</string>
+    <string name="speakers_state_off">OFF</string>
+    <string name="speakers_read_error">Unable to read speaker state</string>
+    <string name="speakers_write_error">Unable to change speaker state</string>
+    <string name="speakers_result_ok">Verified.</string>
+    <string name="speakers_result_mismatch">Readback does not match requested setting.</string>
+    <string name="speakers_confirm_on_title">Enable TV speakers?</string>
+    <string name="speakers_confirm_off_title">Disable TV speakers?</string>
+    <string name="speakers_confirm_message">Experimental Philips API operation. Confirm the current audio output is set to TV Speakers or TV Speakers Off. This change may interrupt audio. You can restore the setting in Philips TV Settings.</string>
+    <string name="speakers_confirm_apply">APPLY</string>
+    <string name="speaker_settings_title">Philips Headphone Volume Sync — Settings</string>
+    <string name="speaker_settings_description">Turn the built-in TV speakers on or off. Headphone volume synchronization continues to work independently. This option does not select Bluetooth or HDMI audio outputs.</string>
+    <string name="speaker_settings_switch">Built-in TV speakers</string>
+    <string name="speaker_settings_current">TV speakers: %1$s</string>
+    <string name="speaker_settings_refresh">REFRESH SPEAKER STATUS</string>
+    <string name="speaker_settings_confirm_message">Change the built-in TV speaker state using the Philips audio API? This may briefly interrupt the sound. You can also restore the setting in Philips TV Settings.</string>
+</resources>
